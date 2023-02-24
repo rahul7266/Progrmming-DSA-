@@ -1,14 +1,17 @@
 #include<bits/stdc++.h>
 using namespace std ;
-int fibonnaci(int n){
- if(n<=1) return n ;
-  return fibonnaci(n-2)+fibonnaci(n-1) ;
+int fib(int n){
+   if(n<3) return n ;
+   return fib(n-1)+fib(n-2) ;
 }
+
+
 int main(){
   freopen("input.txt","r",stdin) ;
   freopen("output.txt","w",stdout) ;
     int n ;
     cin>>n ;
-    cout<<fibonnaci(n) ;
+    cout<<fib(n) ;
+   
     return 0 ;
 }
