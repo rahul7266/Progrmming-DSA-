@@ -1,0 +1,1 @@
+//longest plindromic of any string = lcs of any string s1 with the reverse of that string

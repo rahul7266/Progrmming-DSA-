@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+
 using namespace std ;
 int fib(int n){
    if(n<3) return n ;

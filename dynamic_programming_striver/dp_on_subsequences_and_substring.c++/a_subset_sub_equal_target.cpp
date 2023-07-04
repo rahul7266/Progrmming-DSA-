@@ -61,7 +61,7 @@ bool subset_sum4(vector<int>&v,int n, int target){
    vector<bool>dp(target+1,false) ;
    dp[0] = true ;    // base case 
    for(auto x:v){
-    for(int cur = target-x;cur>=0;cur--){       // if infinite n diya ho to always piche se chalege varna ye loop aage se cahlega
+    for(int cur = target-x;cur>=0;cur--){       // if infinite nahi diya ho to always piche se chalege varna ye loop aage se cahlega
         dp[cur+x] = dp[cur+x] | dp[cur] ;
     }
    }

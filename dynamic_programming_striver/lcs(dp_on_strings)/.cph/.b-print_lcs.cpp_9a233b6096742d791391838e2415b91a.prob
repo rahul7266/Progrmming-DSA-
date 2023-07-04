@@ -1,0 +1,1 @@
+{"name":"Local: b-print_lcs","url":"d:\\practice\\dynamic_programming_striver\\lcs(dp_on_strings)\\b-print_lcs.cpp","tests":[{"id":1679292807755,"input":"5 5\nabcde\nbdgek","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\practice\\dynamic_programming_striver\\lcs(dp_on_strings)\\b-print_lcs.cpp","group":"local","local":true}
