@@ -9,7 +9,7 @@ class Complex{
             b = n2;
         }
 
-        // Below line means that non member - sumComplex funtion is allowed to do anything with my private parts (members)
+        // Below line means that non member - sumComplex funtion is allowed to do anything with private members
         void printNumber(){
             cout<<"Your number is "<<a<<" + "<<b<<"i"<<endl;
         }
